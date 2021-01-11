@@ -1,0 +1,92 @@
+header {
+  height: 100px;
+  padding: 1rem;
+  color: white;
+  background: teal;
+  font-weight: bold;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  top: 0;
+  left: 0;
+  right: 0;
+  position: fixed;
+} 
+
+a {
+    color:lavender;
+    text-decoration: none;
+}
+
+header nav a {
+    margin-right: 58px;
+}
+
+h1 {
+    font-size: 40px;
+    margin: 10px 0;
+}
+
+header span .menulink {
+    color: lavender;
+    text-decoration: none;
+}
+
+header span .menulink:hover {
+    color:tomato;
+}
+
+body {
+    padding-top: 132px;
+}
+
+h2 {
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.8);
+    color: orange;
+    width: auto;
+}
+
+#숙소 {
+    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcROkSWFsUfzJIVNDH4HtM_qUH4OZjscRDSjfA&usqp=CAU");
+}
+
+.pic, .smallpic {
+    width: 400px;
+    height: 400px;
+}
+
+.grid {
+    display: grid;
+  grid-template-columns: 400px 400px;
+  grid-template-rows: repeat(2, 400px);
+  grid-gap: 40px;
+  margin-top: 44px;
+  grid-auto-rows: 500px;
+  justify-items: center;
+  justify-content: center;
+  align-content: end;
+  grid-auto-flow: dense;
+}
+
+.tang {
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+    width: 500px;
+    height: 500px;
+}
+
+p {
+    font-family: "바탕체", Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    text-align: start;
+    border: 5px double midnightblue;
+    margin: 20px 50px;
+}
+
+.stupid {
+    font-size: 20px;
+    font-family: Arial, Helvetica;
+    color: purple !important;
+} 
